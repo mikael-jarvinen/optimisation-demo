@@ -18,7 +18,7 @@ const SubComponentThreeNumber = React.memo(({ number }: { number: number }) => {
   )
 });
 
-SubComponentThreeNumber.displayName = 'SubComponentThreeNumber'
-  
+SubComponentThreeNumber.displayName = 'SubComponentThreeNumber';
+
 export default SubComponentThreeNumber;
   

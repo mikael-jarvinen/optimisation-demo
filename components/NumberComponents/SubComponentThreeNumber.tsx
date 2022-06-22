@@ -1,6 +1,6 @@
 import React from "react";
 
-const SubComponentThreeNumber = React.memo(({ number }: { number: number }) => {
+const SubComponentThreeNumber = ({ number }: { number: number }) => {
   console.log('subcomponent3 render')
 
   return (
@@ -16,7 +16,7 @@ const SubComponentThreeNumber = React.memo(({ number }: { number: number }) => {
       {number}
     </div>
   )
-});
+};
 
 SubComponentThreeNumber.displayName = 'SubComponentThreeNumber';
 
